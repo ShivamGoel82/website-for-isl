@@ -77,9 +77,7 @@ export default function Home() {
                       Get Started <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>
-                  <Button variant="outline" size="lg">
-                    <Link href="#demo">View Demo</Link>
-                  </Button>
+                  
                 </div>
               </div>
 
@@ -197,17 +195,17 @@ export default function Home() {
               <Card className="overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=200&width=350"
+                    src="/img3.png"
                     alt="Basic ISL Tutorial"
                     width={350}
                     height={200}
                     className="object-cover w-full"
                   />
                   <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                    <Button variant="secondary" size="sm" className="rounded-full">
+                    <a href="https://youtu.be/qcdivQfA41Y?si=QCzc8Tu_HZRu2U8g"><Button variant="secondary" size="sm" className="rounded-full">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Watch
-                    </Button>
+                    </Button></a>
                   </div>
                 </div>
                 <CardContent className="p-4">
@@ -221,17 +219,17 @@ export default function Home() {
               <Card className="overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=200&width=350"
+                    src="/img2.avif"
                     alt="Everyday Phrases in ISL"
                     width={350}
                     height={200}
                     className="object-cover w-full"
                   />
                   <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                    <Button variant="secondary" size="sm" className="rounded-full">
+                  <a href="https://youtu.be/Vj_13bdU4dU?si=c6f-JbU-1Fsl6XGy"><Button variant="secondary" size="sm" className="rounded-full">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Watch
-                    </Button>
+                    </Button></a>
                   </div>
                 </div>
                 <CardContent className="p-4">
@@ -245,17 +243,18 @@ export default function Home() {
               <Card className="overflow-hidden">
                 <div className="aspect-video relative">
                   <Image
-                    src="/placeholder.svg?height=200&width=350"
+                    src="/img2.png"
                     alt="Advanced ISL Techniques"
                     width={350}
                     height={200}
                     className="object-cover w-full"
                   />
                   <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
-                    <Button variant="secondary" size="sm" className="rounded-full">
+                  <a href="https://youtu.be/ZE7EFgd0IWs?si=IU5ckXEialyeb2Gl"><Button variant="secondary" size="sm" className="rounded-full">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Watch
-                    </Button>
+                    </Button></a>
+                  
                   </div>
                 </div>
                 <CardContent className="p-4">
@@ -401,24 +400,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="demo" className="w-full min-h-screen flex items-center justify-center bg-gray-50 dark:bg-gray-900">
-          <div className="container px-4 md:px-6 text-center">
-            <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">See It In Action</h2>
-              <p className="max-w-[900px] mx-auto text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Watch how SignSync translates Indian Sign Language in real-time
-              </p>
-            </div>
-            <div className="mx-auto max-w-4xl py-12">
-              <div className="aspect-video overflow-hidden rounded-lg border bg-white shadow-xl dark:bg-gray-800">
-                <div className="flex h-full items-center justify-center">
-                  <p className="text-gray-500 dark:text-gray-400">Demo video placeholder</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section
           id="get-started"
           className="w-full min-h-screen flex items-center justify-center bg-black text-white"
@@ -429,18 +410,16 @@ export default function Home() {
                 Ready to Get Started?
               </h2>
               <p className="max-w-[900px] mx-auto text-gray-300 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Download our extension and start breaking communication barriers today
+                visit our extension and start breaking communication barriers today
               </p>
               <div className="mx-auto w-full max-w-sm space-y-4">
-                <Button
+               <a href="https://github.com/harshverma27/Sign-Language-Convertor.git"> <Button
                   size="lg"
                   className="w-full bg-primary text-black hover:bg-primary/90"
                 >
-                  Download Extension
-                </Button>
-                <p className="text-sm text-gray-400">
-                  Available for Chrome, Firefox, and Edge
-                </p>
+                  Visit Extension
+                </Button></a>
+                
               </div>
             </div>
           </div>
